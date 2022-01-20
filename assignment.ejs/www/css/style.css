@@ -1,0 +1,24 @@
+@import url("grid.css");
+@import url("image.css");
+@import url("nav.css");
+
+
+h2 {
+	font-family: 'Neucha', cursive;
+	color:navy;
+	font-weight: bolder;
+	background-color: lightblue;
+}
+
+h3 {
+	font-family: Oswald,sans-serif;
+}
+
+.contact-form {
+	grid-column-start: 1;
+}
+
+p {
+	font-family: Oswald, sans-serif;
+}
+

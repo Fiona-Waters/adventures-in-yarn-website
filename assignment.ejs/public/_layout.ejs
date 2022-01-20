@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+		</style>
+		<title>Adventures In Yarn</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<img class="banner-img" src="images/banner3.jpg" alt="colourful crochet blanket"/>
+		<div class="container">
+			<%- include('./partials/_header.ejs'); %>
+			<%- yield %>
+			<%- include('./partials/_footer.ejs'); %>
+		</div>
+	</body>
+</html>

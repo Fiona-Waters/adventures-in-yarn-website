@@ -1,0 +1,19 @@
+<nav> 
+	<ul>
+		<li id="home"><a href="index.html">Home</a></li>
+		<li id="knitting"><a href="knitting.html">Knitting</a></li>
+		<li id="crochet"><a href="crochet.html">Crochet</a></li>
+		<li id="dyeing_yarn"><a href="dyeing_yarn.html">Yarn</a></li>
+		<li id="projects"><a href="projects.html">Projects</a>
+			<ul>
+				<li><a href="favourites.html">Favourites</a>
+				</li>
+			</ul>
+		</li>
+		<li id="contact"><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+<script>
+	document.querySelector("#<%= id %>").classList.add("active")
+</script>
